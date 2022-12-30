@@ -13,6 +13,11 @@
 		4E7BF973295E1C2D00643F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7BF971295E1C2D00643F5D /* LaunchScreen.storyboard */; };
 		4E7BF97C295E206400643F5D /* MosqueTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BF97B295E206400643F5D /* MosqueTrackingManager.swift */; };
 		4E7BF97F295E550B00643F5D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BF97E295E550B00643F5D /* LocationManager.swift */; };
+		4E7BF981295F2C7100643F5D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BF980295F2C7100643F5D /* MapViewController.swift */; };
+		4E7BF984295F3C2F00643F5D /* MosqueTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BF983295F3C2F00643F5D /* MosqueTracker.swift */; };
+		4E7BF986295F3D8100643F5D /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BF985295F3D8100643F5D /* ModalViewController.swift */; };
+		4E7BF988295F406F00643F5D /* HalfModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BF987295F406F00643F5D /* HalfModalViewController.swift */; };
+		4E7BF98B295F412A00643F5D /* HalfModalAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BF98A295F412A00643F5D /* HalfModalAnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		4E7BF974295E1C2D00643F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E7BF97B295E206400643F5D /* MosqueTrackingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueTrackingManager.swift; sourceTree = "<group>"; };
 		4E7BF97E295E550B00643F5D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4E7BF980295F2C7100643F5D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4E7BF983295F3C2F00643F5D /* MosqueTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueTracker.swift; sourceTree = "<group>"; };
+		4E7BF985295F3D8100643F5D /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		4E7BF987295F406F00643F5D /* HalfModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalViewController.swift; sourceTree = "<group>"; };
+		4E7BF98A295F412A00643F5D /* HalfModalAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfModalAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		4E7BF965295E1C2C00643F5D /* LocalMosqueTracker */ = {
 			isa = PBXGroup;
 			children = (
+				4E7BF982295F3C1B00643F5D /* Models */,
 				4E7BF97D295E210100643F5D /* ViewControllers */,
 				4E7BF97A295E204B00643F5D /* Managers */,
 				4E7BF966295E1C2C00643F5D /* AppDelegate.swift */,
@@ -79,8 +90,20 @@
 			isa = PBXGroup;
 			children = (
 				4E7BF96A295E1C2C00643F5D /* LoginViewController.swift */,
+				4E7BF980295F2C7100643F5D /* MapViewController.swift */,
+				4E7BF985295F3D8100643F5D /* ModalViewController.swift */,
+				4E7BF987295F406F00643F5D /* HalfModalViewController.swift */,
+				4E7BF98A295F412A00643F5D /* HalfModalAnimationController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4E7BF982295F3C1B00643F5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BF983295F3C2F00643F5D /* MosqueTracker.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,10 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7BF984295F3C2F00643F5D /* MosqueTracker.swift in Sources */,
 				4E7BF97F295E550B00643F5D /* LocationManager.swift in Sources */,
+				4E7BF98B295F412A00643F5D /* HalfModalAnimationController.swift in Sources */,
 				4E7BF96B295E1C2C00643F5D /* LoginViewController.swift in Sources */,
 				4E7BF967295E1C2C00643F5D /* AppDelegate.swift in Sources */,
+				4E7BF981295F2C7100643F5D /* MapViewController.swift in Sources */,
 				4E7BF97C295E206400643F5D /* MosqueTrackingManager.swift in Sources */,
+				4E7BF986295F3D8100643F5D /* ModalViewController.swift in Sources */,
+				4E7BF988295F406F00643F5D /* HalfModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
